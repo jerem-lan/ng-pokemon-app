@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
-
+  
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'pokemon-app',
+  template: `<h1>Hello {{name}}</h1>`,
 })
-export class AppComponent {
-  title = 'ng-pokemon-app';
-}
+export class AppComponent  { name = 'Angular'; }
